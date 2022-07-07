@@ -160,7 +160,6 @@ catch (PDOException $e) {
 									}
 								
 								?>
-								<form action="consulta1.php" method="post"> </form>
 							</tbody>
 						</table>
 					</div>
