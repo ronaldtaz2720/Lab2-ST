@@ -113,25 +113,7 @@ catch (PDOException $e) {
 									<th>Anio 2020</th>
 								</tr>
 							</thead>
-							<tfoot>
-								<tr>
-									<th>Series Name</th>
-									<th>Series Code</th>
-									<th>Country Name</th>
-									<th>Country Code</th>
-									<th>Anio 2010</th>
-									<th>Anio 2011</th>
-									<th>Anio 2012</th>
-									<th>Anio 2013</th>
-									<th>Anio 2014</th>
-									<th>Anio 2015</th>
-									<th>Anio 2016</th>
-									<th>Anio 2017</th>
-									<th>Anio 2018</th>
-									<th>Anio 2019</th>
-									<th>Anio 2020</th>
-								</tr>
-							</tfoot>
+							
 							<tbody>
 								<?php
 									//Captar la consulta
@@ -161,6 +143,25 @@ catch (PDOException $e) {
 								
 								?>
 							</tbody>
+							<tfoot>
+								<tr>
+									<th>Series Name</th>
+									<th>Series Code</th>
+									<th>Country Name</th>
+									<th>Country Code</th>
+									<th>Anio 2010</th>
+									<th>Anio 2011</th>
+									<th>Anio 2012</th>
+									<th>Anio 2013</th>
+									<th>Anio 2014</th>
+									<th>Anio 2015</th>
+									<th>Anio 2016</th>
+									<th>Anio 2017</th>
+									<th>Anio 2018</th>
+									<th>Anio 2019</th>
+									<th>Anio 2020</th>
+								</tr>
+							</tfoot>
 						</table>
 					</div>
 				</div>	
