@@ -120,7 +120,7 @@ catch (PDOException $e) {
 							<tbody>
 								<?php
 									//Captar la consulta
-									$stmt = $conn->prepare("Select * From Data where SERIES_NAME like '% with HIV %' and SERIES_NAME like '%15%' ");
+									$stmt = $conn->query("Select * From Data where SERIES_NAME like '% with HIV %' and SERIES_NAME like '%15%' ");
 									$result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
 									foreach($stmt as $fila){
 								?>
