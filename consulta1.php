@@ -125,21 +125,21 @@ catch (PDOException $e) {
 									foreach($stmt as $fila){
 								?>
 										<tr>
-											<td><?php $fila['SERIES_NAME'] ?></td>
-											<td><?php $fila['SERIES_CODE'] ?></td>
-											<td><?php $fila['COUNTRY_NAME'] ?></td>
-											<td><?php $fila['COUNTRY_CODE'] ?></td>
-											<td><?php $fila['ANIO2010'] ?></td>
-											<td><?php $fila['ANIO2011'] ?></td>
-											<td><?php $fila['ANIO2012'] ?></td>
-											<td><?php $fila['ANIO2013'] ?></td>
-											<td><?php $fila['ANIO2014'] ?></td>
-											<td><?php $fila['ANIO2015'] ?></td>
-											<td><?php $fila['ANIO2016'] ?></td>
-											<td><?php $fila['ANIO2017'] ?></td>
-											<td><?php $fila['ANIO2018'] ?></td>
-											<td><?php $fila['ANIO2019'] ?></td>
-											<td><?php $fila['ANIO2020'] ?></td>
+											<td><?php echo $fila['SERIES_NAME'] ?></td>
+											<td><?php echo $fila['SERIES_CODE'] ?></td>
+											<td><?php echo $fila['COUNTRY_NAME'] ?></td>
+											<td><?php echo $fila['COUNTRY_CODE'] ?></td>
+											<td><?php echo $fila['ANIO2010'] ?></td>
+											<td><?php echo $fila['ANIO2011'] ?></td>
+											<td><?php echo $fila['ANIO2012'] ?></td>
+											<td><?php echo $fila['ANIO2013'] ?></td>
+											<td><?php echo $fila['ANIO2014'] ?></td>
+											<td><?php echo $fila['ANIO2015'] ?></td>
+											<td><?php echo $fila['ANIO2016'] ?></td>
+											<td><?php echo $fila['ANIO2017'] ?></td>
+											<td><?php echo $fila['ANIO2018'] ?></td>
+											<td><?php echo $fila['ANIO2019'] ?></td>
+											<td><?php echo $fila['ANIO2020'] ?></td>
 										</tr>
 								<?php
 									}
