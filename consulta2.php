@@ -44,31 +44,31 @@ catch (PDOException $e) {
                             Dashboard
                         </a>
                         <div class="sb-sidenav-menu-heading">Consultas</div>
-                        <a class="nav-link" href="consulta1.html">
+                        <a class="nav-link" href="consulta1.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 1
                         </a>
-                        <a class="nav-link" href="consulta2.html">
+                        <a class="nav-link" href="consulta2.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 2
                         </a>
-                        <a class="nav-link" href="consulta3.html">
+                        <a class="nav-link" href="consulta3.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 3
                         </a>
-                        <a class="nav-link" href="consulta4.html">
+                        <a class="nav-link" href="consulta4.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 4
                         </a>
-                        <a class="nav-link" href="consulta5.html">
+                        <a class="nav-link" href="consulta5.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 5
                         </a>
-                        <a class="nav-link" href="consulta6.html">
+                        <a class="nav-link" href="consulta6.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 6
                         </a>
-                        <a class="nav-link" href="consulta7.html">
+                        <a class="nav-link" href="consulta7.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
                             Consulta 7
                         </a>
